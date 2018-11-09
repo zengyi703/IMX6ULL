@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>525909249</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Obj\fsl_sdmmc.pbi</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_clock.c</file>
+      <file>$PROJ_DIR$\Exe\Demo.out</file>
+      <file>$PROJ_DIR$\Obj\event.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_host.pbi</file>
+      <file>$PROJ_DIR$\Obj\ff.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_sd_disk.pbi</file>
+      <file>$PROJ_DIR$\..\board\delay.c</file>
+      <file>$PROJ_DIR$\..\app\main.c</file>
+      <file>$PROJ_DIR$\..\board\board.c</file>
+      <file>$PROJ_DIR$\..\board\led.c</file>
+      <file>$PROJ_DIR$\..\board\key.c</file>
+      <file>$PROJ_DIR$\..\board\sdcard.c</file>
+      <file>$PROJ_DIR$\..\board\uart.c</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_cache.c</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_gpio.c</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_epit.c</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_uart.c</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_usdhc.c</file>
+      <file>$PROJ_DIR$\..\fatfs\src\diskio.h</file>
+      <file>$PROJ_DIR$\..\fatfs\src\ff.h</file>
+      <file>$PROJ_DIR$\..\fatfs\src\fsl_sd_disk\fsl_sd_disk.h</file>
+      <file>$PROJ_DIR$\..\fatfs\src\integer.h</file>
+      <file>$PROJ_DIR$\..\fatfs\src\diskio.c</file>
+      <file>$PROJ_DIR$\..\fatfs\src\ff.c</file>
+      <file>$PROJ_DIR$\..\fatfs\src\fsl_sd_disk\fsl_sd_disk.c</file>
+      <file>$PROJ_DIR$\..\sdmmc\port\usdhc\interrupt\event.c</file>
+      <file>$PROJ_DIR$\..\sdmmc\port\usdhc\interrupt\fsl_host.c</file>
+      <file>$PROJ_DIR$\..\sdmmc\src\fsl_sd.c</file>
+      <file>$PROJ_DIR$\..\start\startup_MCIMX6Y2.s</file>
+      <file>$PROJ_DIR$\..\sdmmc\src\fsl_sdmmc.c</file>
+      <file>$PROJ_DIR$\..\start\system_MCIMX6Y2.c</file>
+      <file>$PROJ_DIR$\Obj\main.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_cache.o</file>
+      <file>$PROJ_DIR$\Obj\board.o</file>
+      <file>$PROJ_DIR$\Obj\delay.o</file>
+      <file>$PROJ_DIR$\Obj\led.o</file>
+      <file>$PROJ_DIR$\Obj\key.o</file>
+      <file>$PROJ_DIR$\Obj\sdcard.o</file>
+      <file>$PROJ_DIR$\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Obj\ff.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_clock.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_epit.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_gpio.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_uart.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_usdhc.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_sd_disk.o</file>
+      <file>$PROJ_DIR$\Obj\diskio.o</file>
+      <file>$PROJ_DIR$\Obj\startup_MCIMX6Y2.o</file>
+      <file>$PROJ_DIR$\Obj\event.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_host.o</file>
+      <file>$PROJ_DIR$\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_sd.o</file>
+      <file>$PROJ_DIR$\Obj\system_MCIMX6Y2.o</file>
+      <file>$PROJ_DIR$\Obj\fsl_sdmmc.o</file>
+      <file>$PROJ_DIR$\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_cache.pbi</file>
+      <file>$PROJ_DIR$\Obj\key.pbi</file>
+      <file>$PROJ_DIR$\Obj\sdcard.pbi</file>
+      <file>$PROJ_DIR$\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_clock.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_epit.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_gpio.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_uart.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_usdhc.pbi</file>
+      <file>$PROJ_DIR$\Obj\diskio.pbi</file>
+      <file>$PROJ_DIR$\Obj\fsl_sd.pbi</file>
+      <file>$PROJ_DIR$\Obj\system_MCIMX6Y2.pbi</file>
+      <file>$PROJ_DIR$\Obj\Demo.pbd</file>
+      <file>$PROJ_DIR$\Exe\Demo.bin</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Exe\Demo.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board\delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board\key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board\sdcard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_cache.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_epit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_usdhc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fatfs\src\diskio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fatfs\src\ff.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fatfs\src\fsl_sd_disk\fsl_sd_disk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\sdmmc\port\usdhc\interrupt\event.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\sdmmc\port\usdhc\interrupt\fsl_host.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\sdmmc\src\fsl_sd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\start\startup_MCIMX6Y2.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\sdmmc\src\fsl_sdmmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\start\system_MCIMX6Y2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
